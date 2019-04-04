@@ -1,0 +1,234 @@
+        html {
+			width: 100%;
+			height: 100%;
+			min-width: 768px;
+        }
+	
+		body {
+			color: #333;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			overflow-y: hidden;
+			background: #f4f4f4 url(https://open.saintic.com/api/bingPic/)   no-repeat top center;
+			background-size:cover; 
+			min-height:500px;
+			min-width:768px 
+        }
+
+        .container {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			min-width: 768px;
+						
+        }
+
+        input, button, body {
+			font-family: dashicons,"Segoe UI","WenQuanYi Micro Hei","WenQuanYi Micro Hei Mono","Microsoft Yahei","Microsoft Yahei Mono",微软雅黑,sans-serif
+        }
+
+        a {
+			text-decoration: none;
+            outline: 0;
+            color: #333;
+        }
+
+        button, input, optgroup, select, textarea {
+            margin: 0
+        }
+
+
+        .search-wrapper, .search {
+            position: relative
+        }
+
+        .search-wrapper {
+            width: 600px;
+            margin: 0 auto;
+            padding: 100px 0 66px;
+            margin-bottom: 150px
+        }
+
+        .search-tabs-active {
+            background-color: #FF5000 !important;  
+		}
+
+
+        .search-tabs {
+            margin: 0 0 0px;
+            list-style: none
+        }
+
+            .search-tabs li {
+                display: inline-block;
+                padding: 2px 8px;
+                border-top-right-radius:7px;
+				border-top-left-radius:7px;
+                border: 1px solid #FF5000;
+                background-color: #FFF;
+				border-bottom:none;
+				cursor: pointer;
+            }
+
+			.search-tabs li:hover {
+				color: #fff;
+				background: #FF7000;
+			}
+
+        .search-tabs-active a {
+            
+			color: #fff
+        }
+
+        .search-form {
+            margin-bottom: 93px
+        }
+
+        .input-group {
+            position:relative;left:22px;
+			float: left;
+        }
+
+        .search-input {
+            font-size: 16px;
+            width: 490px;
+            height: 40px;
+            background-color: transparent;
+			margin: 0;
+            padding: 0;
+            border: 0;
+            float: left;
+			outline: none;
+        }
+
+        .search-input-wrapper {
+            width: 596px;
+            height: 40px;
+			border:1px solid #ff5000;
+			border-radius: 21px;
+	        background-color: #fff;
+        }
+
+
+
+        .search-buttonpane .search-button {
+            border-radius: 0 5px 5px 0
+        }
+
+        .search-buttonpane, .search-buttonpane .search-button {
+            width: 80px;
+            height: 40px;
+            float: right;
+			border-radius: 20px;
+			
+        			
+        }
+
+        .search-button {
+            
+			
+			background-color:#FF5000;
+			transition: background .4s;
+            text-align: center;
+            outline: 0;
+            border: 0;            
+            display: inline-block;
+            font-family: 'Glyphicons Halflings' !important;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            font-size: 22px;
+            color: #fff;
+            padding: 8px;
+            cursor: pointer
+		}
+
+        .search-button:hover {
+            color: #FFF;
+			background: #FF7000;
+        }
+		
+		.search-button:focus {
+            color: #FFF;
+			background: #FF3000;
+        }
+		        
+        .search-button:before {
+		    content: "\e003"
+            }
+
+
+
+        .search-logo {
+            padding:  20px 0 80px 0;
+			}
+
+
+        .foot {
+            font-size: 12px;
+            text-align: center;
+            color: gray
+        }
+
+        .search-header {
+            padding: 7px 30px;
+            text-align:right;
+            z-index: 301;
+            min-width: 1000px;
+            background: #f4f4f4;
+            border-bottom: 2px solid #ff5000;
+            display: none;
+        }
+
+        .search-input-q {
+            font-size: 14px;
+            width: 300px;
+            height: 30px;
+            padding: 0 10px 0 10px;
+            border:2px solid #ff5000;
+			background-color: #FFF;
+			border-radius: 16px;
+			outline: none;
+			box-shadow: 0 0 8px #888;
+        }
+
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url(https://cdn.bootcss.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot);
+            src: url(https://cdn.bootcss.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(https://cdn.bootcss.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(https://cdn.bootcss.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff) format('woff'),url(https://cdn.bootcss.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(https://cdn.bootcss.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+        }
+
+        .search-button-top {
+            position: fixed;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings' !important;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            font-size: 18px;
+            color: #000;
+            margin-left: -30px;
+            height: 30px;
+            padding-top: 8px;
+            cursor: pointer
+        }
+
+            .search-button-top:before {
+                content: "\e003"
+            }
+
+        iframe {
+            width: 100%;
+            height: 100%
+        }
+
+        .iframe-div {
+            position: absolute;
+            top: 50px;
+            bottom: 0;
+            width: 100%;
+            display: none
+        }
