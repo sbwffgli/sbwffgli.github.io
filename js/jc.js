@@ -75,3 +75,11 @@ if(system.win||system.mac||system.xll){
 }else{
 window.location.href="http://blog.kemeiba.com";
 }
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3d20a971b90ca8e901b2e6c635c4934c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
