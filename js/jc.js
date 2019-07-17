@@ -73,7 +73,7 @@ system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
 if(system.win||system.mac||system.xll){
   
 }else{
-window.location.href="http://blog.kemeiba.com";
+window.location.href="http://www.kemeiba.com";
 }
 
 var _hmt = _hmt || [];
