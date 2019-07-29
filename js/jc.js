@@ -64,6 +64,7 @@ win : false,
 mac : false,
 xll : false
 };
+/*
 //检测平台
 var p = navigator.platform;
 system.win = p.indexOf("Win") == 0;
@@ -75,7 +76,8 @@ if(system.win||system.mac||system.xll){
 }else{
 window.location.href="http://www.kemeiba.com";
 }
-
+*/
+//百度统计
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
